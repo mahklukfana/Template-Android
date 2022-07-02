@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_beranda"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_keuangan"
+        android:icon="@drawable/invoice_ios"
+        android:title="@string/keuangan" />
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/chat_ios"
+        android:title="@string/percakapan" />
+
+    <item
+        android:visible="false"
+        android:id="@+id/navigation_pemberitahuan"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="@string/information" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/profile" />
+
+</menu>
