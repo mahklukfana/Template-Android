@@ -7,31 +7,31 @@
 
     <fragment
         android:id="@+id/navigation_beranda"
-        android:name="com.example.mhyneuq.ui.beranda.BerandaFragment"
+        android:name="com.example.template.ui.beranda.BerandaFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_beranda" />
 
     <fragment
         android:id="@+id/navigation_pemberitahuan"
-        android:name="com.example.mhyneuq.ui.notifikasi.NotifikasiFragment"
+        android:name="com.example.template.ui.notifikasi.NotifikasiFragment"
         android:label="@string/information"
         tools:layout="@layout/fragment_notifikasi" />
 
     <fragment
         android:id="@+id/navigation_keuangan"
-        android:name="com.example.mhyneuq.ui.chat.KeuanganFragment"
+        android:name="com.example.template.ui.chat.KeuanganFragment"
         android:label="@string/keuangan"
         tools:layout="@layout/fragment_keuangan" />
 
     <fragment
         android:id="@+id/navigation_chat"
-        android:name="com.example.mhyneuq.ui.chat.ChatFragment"
+        android:name="com.example.template.ui.chat.ChatFragment"
         android:label="@string/percakapan"
         tools:layout="@layout/fragment_chat" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.example.mhyneuq.ui.profile.ProfileFragment"
+        android:name="com.example.template.ui.profile.ProfileFragment"
         android:label="@string/profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

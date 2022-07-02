@@ -1,2 +1,1 @@
-# KAPPAS
-## Aplikasi Monitoring Santri Pondok Pesantren Assalam Jambewangi
+# Template Android MVVM Kotlin
