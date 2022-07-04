@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.template">
+    package="com.mhyne.template">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="com.example.template.util.MyApp"
+        android:name="com.mhyne.template.util.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/logo_kappas"
         android:label="@string/app_name"
         android:networkSecurityConfig="@xml/network_security"
         android:roundIcon="@mipmap/logo_kappas_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MhyneUQ"
+        android:theme="@style/Theme.itsmhyne"
         android:usesCleartextTraffic="true"
-        tools:targetApi="n">
+        tools:targetApi="n"
+        tools:replace="theme">
         <activity
-            android:name="com.example.template.ui.walisantri.DashboardWaliActivity"
+            android:name=".ui.walisantri.DashboardWaliActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.template.SplashScreenActivity"
+            android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,10 +31,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.template.NavigationActivity" />
-        <activity android:name="com.example.template.MainActivity" />
-        <activity android:name="com.example.template.ui.auth.LoginActivity" />
-        <activity android:name="com.example.template.ui.auth.RegisterActivity" />
+        <activity android:name=".NavigationActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.auth.LoginActivity" />
+        <activity android:name=".ui.auth.RegisterActivity" />
     </application>
 
 </manifest>
